@@ -1,0 +1,39 @@
+HTML：编辑文本结构和文本内容
+SEO（搜索引擎优化）是一种让网站在搜索引擎结果中更加清晰，也帮助我们将搜索结果更靠前
+SEO 方法：
+   技术：使用语义标记内容HTML. 浏览网站时，抓取工具应该只找到您要编入索引的内容。
+   撰稿：使用访问者的词汇编写内容。使用文本和图像，以便抓取工具可以理解主题。
+   声望：当其他已建立的站点链接到您的站点时，您获得最多流量。
+语义对无障碍，SEO（搜索引擎优化）等非常重要
+统一资源定位符（英文：Uniform Resource Locator，简写：URL）是一个定义了在网络上的位置的一个文本字符串
+超链接使用方式：eg:定义id<h2 id="Mailing_address">邮寄地址</h2>
+               <p>要提供意见和建议，请将信件邮寄至<a href="contacts.html#Mailing_address">我们的地址</a>。</p>
+               <p>本页面底部可以找到<a href="#Mailing_address">公司邮寄地址</a>。</p>
+绝对 URL：指向由其在 Web 上的绝对位置定义的位置，包括协议和域名
+相对 URL：指向与你链接的文件相关的位置，更像我们在前面一节中所看到的位置
+浏览器的默认样式会在描述列表的描述部分（description definition）和描述术语（description terms）之间产生缩进。MDN 非常严密地遵循这一惯例
+缩略语<abbr>  eg：<p><abbr title="美国国家航空航天局（National Aeronautics and Space Administration）">NASA</abbr> 做了一些动人心弦的事情。</p>
+
+
+W3C验证错误 Markup Validation Service（网页可以接受网址、上传一个 HTML 文档，或者直接输入一些 HTML 代码。）
+
+SVG优点：有利于 SEO
+         SVG 可以很好地适应样式/脚本，因为图像的每个组件都是可以通过 CSS 或通过 JavaScript 编写的样式的元素。
+   缺点：会在浏览器中占用很长的处理时间
+         SVG 可能比栅格图像更难创建
+
+
+
+CSS
+可能的值以函数的形式出现  例子： calc()
+inherit开启继承
+initial选定元素的属性值设置为该属性的初始值
+revert (en-US)将应用于选定元素的属性值重置为浏览器的默认样式
+revert-layer (en-US)将应用于选定元素的属性值重置为在上一个层叠层中建立的值
+unset将属性重置为自然值
+
+CSS选择器优先级：
+类型不同时：id 选择器 > class 选择 器 > 标签选择
+来源不同时：内联样式> 内部样式 > 外部 样式 > 浏览器用户自定义样式 > 浏览器默认样式
+
+流行预处理工具Sass
